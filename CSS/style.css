@@ -4,15 +4,34 @@
      box-sizing: border-box;
 }
 
-.grid1 {
+
+.grid {
     display: flex;
     flex-wrap: wrap;
 }
 
-.box {
+
+.box1 {
     width: 25%;
     height: 100px;
     background-color: skyblue;
+    border: 10px solid #fff;
+    border-radius: 20px;
+}
+
+
+.box2 {
+    width: 50%;
+    height: 100px;
+    background-color: pink;
+    border: 10px solid #fff;
+    border-radius: 20px;
+}
+
+.box3 {
+    width: 16%;
+    height: 100px;
+    background-color: greenyellow;
     border: 10px solid #fff;
     border-radius: 20px;
 }
