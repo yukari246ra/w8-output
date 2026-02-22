@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+* {
+     box-sizing: border-box;
+}
+
+.grid1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 25%;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid #fff;
+}
